@@ -1,0 +1,8 @@
+# python
+__pycache__/ 
+.idea
+.pytest_cache/
+
+# My collection of work in progress
+pending/
+

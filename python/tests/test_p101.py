@@ -70,12 +70,12 @@ def test_solution5():
 
 def test_solution6():
     # input = [1,2,2,None,3,3,None]
-    #       1
-    #     /   \
-    #    /     \
-    #   2       2
-    #    \     /
-    #     3   3
+    #      1
+    #     / \
+    #    /   \
+    #   2     2
+    #    \   /
+    #     3 3
     solution = Solution()
     r = TreeNode(1)
     r.left = TreeNode(2)

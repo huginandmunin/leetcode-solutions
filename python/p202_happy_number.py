@@ -7,7 +7,6 @@ class Solution:
         if n == 1:
             return True
 
-
         list_n = [n]
         print(f'n={n}')
         while n > 1:

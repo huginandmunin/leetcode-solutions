@@ -5,8 +5,9 @@ class Solution:
         { c1: {'first_i': index, 'count': count}, c2: {...}, ...}
         Select the minimum index where count == 1. 
 
-        A faster solution would be to enumerate s and
-        return first index where s.count(c)==1. 
+        Faster solutions would be
+        (1) enumerate s and return first index where s.count(c)==1,
+        (2) use collections.Counter for the count dict.  
         """
         count_dict = {}
         indexes =[]    

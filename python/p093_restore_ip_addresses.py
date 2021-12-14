@@ -13,7 +13,8 @@ class Solution:
 
         valid_ips = []
 
-        # Form possible permutations. Check if each one is valid.
+        # Form possible permutations by slicing input string s.
+        # Check that each slice is a valid component of an ip address.
         for i in range(1,len(s)-2):
             ip1 = s[0:i]
             if not self.is_valid_number(ip1):
@@ -40,23 +41,3 @@ class Solution:
         if re.match(r'0+\d',number_str):
             return False
         return True
-
-
-if __name__ == "__main__":
-    solution = Solution()
-
-
-    s = "25525511135"
-    print(f'result = {solution.restoreIpAddresses(s)}')
-
-    s = "0000"
-    print(f'result = {solution.restoreIpAddresses(s)}')
-
-    s = "1111"
-    print(f'result = {solution.restoreIpAddresses(s)}')
-
-    s = "010010"
-    print(f'result = {solution.restoreIpAddresses(s)}')
-
-    s = "101023"
-    print(f'result = {solution.restoreIpAddresses(s)}')

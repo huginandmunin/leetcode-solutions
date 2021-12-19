@@ -26,14 +26,3 @@ class Solution:
         return s
 
         
-if __name__ == "__main__":
-    solution = Solution()
-    input = ["h","e","l","l","o"]
-    result = solution.reverseString(input)
-    print(f's={solution.self.s}')
-
-    input = ["H","a","n","n","a","h"]
-    result = solution.reverseString(input)
-
-    input = ["H"]
-    result = solution.reverseString(input)

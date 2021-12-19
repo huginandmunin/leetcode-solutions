@@ -13,13 +13,14 @@ class Solution:
         Return the number of different transformations among 
         all words we have.
         """
-        # Store the unique transformed words in a set.
-        # Might go faster to store output in list, then convert list to set at the very end. 
-        transformed_words = set()
+        # Store the transformed words in a list then get uniqueness by 
+        # converting to set.
+        transformed_words = []
         morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
                  "-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-",
                  "...-",".--","-..-","-.--","--.."]
         for word in words:
-            transformed_words.add(''.join([morse[ord(x)-ord('a')] for x in word]))
-        return len(transformed_words)
+            transformed = [morse[ord(x)-ord('a')] for x in word]
+            transformed_words.append(''.join(transformed))
+        return len(set(transformed_words)) 
         

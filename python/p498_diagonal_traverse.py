@@ -15,7 +15,6 @@ class Solution:
         result.append(mat[r][c])
         dir = "up"
         count = 1
-        # can do r<=rows-1 and c<=cols-1
         
         while(count < m*n):
             count += 1
@@ -23,10 +22,6 @@ class Solution:
             result.append(mat[r][c])
             print(f'count={count}, result={result}')
 
-            # return when at bottom row and last column.
-            #if (r == m-1) and (c == n - 1):
-            #    print(f'Returning result')
-            #    break
         return result
 
     def get_next_cell(self,m,n,r,c,dir):

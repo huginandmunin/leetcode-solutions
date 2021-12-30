@@ -23,11 +23,9 @@ class Solution:
             j = col
             decoded = ""
             while i < rows and j < cols:
-                # print(f'Adding i={i}, j={j}, matrix={matrix[i][j]}')
                 decoded += matrix[i][j]
                 i += 1
                 j += 1
             result += decoded
-            # print(f'result = {result}')
 
         return result.rstrip()

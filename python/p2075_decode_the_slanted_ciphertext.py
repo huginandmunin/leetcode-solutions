@@ -16,11 +16,6 @@ class Solution:
         start = 0
         end = cols
         [matrix.append(encodedText[start+i*cols:end+i*cols]) for i in range(rows)]
-        #for i in range(rows):
-        #    matrix.append(encodedText[start:end])
-        #    start += cols
-        #    end += cols
-            # print(f'i={i}, matrix={matrix}')
 
         # Read the diagonals
         for col in range(cols):
@@ -36,10 +31,3 @@ class Solution:
             # print(f'result = {result}')
 
         return result.rstrip()
-
-
-if __name__ == "__main__":
-    solution = Solution()
-    encodedText = "ch   ie   pr"
-    rows = 3
-    result = solution.decodeCiphertext(encodedText,rows)

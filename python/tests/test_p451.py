@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p451_sort_characters_by_frequency import Solution
 
 

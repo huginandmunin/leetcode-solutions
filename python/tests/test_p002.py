@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p002_add_two_numbers import Solution, ListNode
 
 def test_solution1():

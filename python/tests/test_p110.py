@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p110_balanced_binary_tree import Solution, TreeNode
 
 def test_solution1():

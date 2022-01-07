@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p014_longest_common_prefix import Solution
 
 

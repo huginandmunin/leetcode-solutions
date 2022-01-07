@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p347_top_k_frequent_elements import Solution
 
 

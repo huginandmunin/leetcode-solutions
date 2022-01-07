@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p104_maximum_depth_of_binary_tree import Solution, TreeNode
 
 def test_solution1():

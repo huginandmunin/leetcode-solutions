@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p973_k_closest_points import Solution
 
 

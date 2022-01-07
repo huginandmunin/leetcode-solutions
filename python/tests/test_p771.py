@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p771_jewels_and_stones import Solution
 
 

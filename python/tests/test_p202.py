@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p202_happy_number import Solution
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p145_binary_tree_postorder_traversal import Solution, TreeNode
 
 def test_solution1():

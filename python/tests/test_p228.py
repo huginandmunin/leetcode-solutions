@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p228_summary_ranges import Solution
 
 

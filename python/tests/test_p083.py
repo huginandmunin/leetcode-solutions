@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p083_remove_duplicates_from_sorted_list import Solution, ListNode
 
 def test_solution1():

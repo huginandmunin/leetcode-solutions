@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p1945_sum_of_digits_of_string_after_convert import Solution
 
 

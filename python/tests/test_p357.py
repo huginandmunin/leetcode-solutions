@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p357_count_numbers_with_unique_digits import Solution
 
 

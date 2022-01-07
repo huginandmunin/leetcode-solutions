@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p1700_number_of_students_unable_to_eat_lunch import Solution
 
 

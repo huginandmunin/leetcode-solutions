@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p242_valid_anagram import Solution
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p027_remove_element import Solution
 
 

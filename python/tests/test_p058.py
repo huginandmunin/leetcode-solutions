@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p058_length_of_last_word import Solution
 
 def test_solution1():

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p026_remove_duplicates_from_sorted_array import Solution
 
 

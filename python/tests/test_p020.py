@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p020_valid_parentheses import Solution
 
 

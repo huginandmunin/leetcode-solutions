@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p021_merge_two_sorted_lists import Solution, ListNode
 
 

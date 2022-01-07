@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p035_search_insert_position import Solution
 
 

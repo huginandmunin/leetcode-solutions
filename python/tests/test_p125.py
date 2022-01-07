@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p125_valid_palindrome import Solution
 
 

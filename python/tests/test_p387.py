@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p387_first_unique_character_in_a_string import Solution
 
 

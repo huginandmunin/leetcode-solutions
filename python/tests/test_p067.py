@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p067_add_binary import Solution
 
 

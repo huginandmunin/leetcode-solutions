@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p169_majority_element import Solution
 
 

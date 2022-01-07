@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p001_two_sum import Solution
 
 

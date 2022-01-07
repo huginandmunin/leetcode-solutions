@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p205_isomorphic_strings import Solution
 
 

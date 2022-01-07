@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p215_kth_largest_element import Solution
 
 

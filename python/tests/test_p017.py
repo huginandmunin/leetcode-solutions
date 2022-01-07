@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p017_letter_combinations_of_a_phone_number import Solution
 
 

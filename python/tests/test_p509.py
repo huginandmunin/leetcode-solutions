@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p509_fibonacci_number import Solution
 
 

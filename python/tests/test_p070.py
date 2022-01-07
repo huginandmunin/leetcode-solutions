@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p070_climbing_stairs import Solution
 
 

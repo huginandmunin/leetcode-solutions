@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p500_keyboard_row import Solution
 
 def test_solution1():

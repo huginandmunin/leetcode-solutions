@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p258_add_digits import Solution
 
 

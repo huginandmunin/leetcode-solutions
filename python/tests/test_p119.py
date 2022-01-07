@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p119_pascals_triangle_ii import Solution
 
 def test_solution1():

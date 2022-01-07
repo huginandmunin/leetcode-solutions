@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p136_single_number import Solution
 
 def test_solution1():

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p2073_time_needed_to_buy_tickets import Solution
 
 

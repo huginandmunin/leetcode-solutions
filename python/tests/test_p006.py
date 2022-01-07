@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p006_zig_zag_conversion import Solution
 
 

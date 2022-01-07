@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p003_longest_substring_without_repeating import Solution
 
 

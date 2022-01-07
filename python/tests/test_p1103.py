@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p1103_distribute_candies_to_people import Solution
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p036_valid_sudoku import Solution
 
 

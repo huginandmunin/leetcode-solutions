@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p692_top_k_frequent_words import Solution
 
 

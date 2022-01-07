@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p367_valid_perfect_square import Solution
 
 

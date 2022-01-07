@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p069_sqrt import Solution
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p013_roman_to_integer import Solution
 
 

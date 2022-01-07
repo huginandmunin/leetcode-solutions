@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p088_merge_sorted_array import Solution
 
 def test_solution1():

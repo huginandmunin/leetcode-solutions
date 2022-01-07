@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p165_compare_version import Solution
 
 

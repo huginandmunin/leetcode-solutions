@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p2024_check_if_numbers_are_ascending_in_sequence import Solution
 
 

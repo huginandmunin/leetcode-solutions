@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p034_find_first_and_last import Solution
 
 

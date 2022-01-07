@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p065_valid_number import Solution
 
 # Valid numbers - integers

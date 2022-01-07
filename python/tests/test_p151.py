@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p151_reverse_words_in_string import Solution
 
 def test_solution1():

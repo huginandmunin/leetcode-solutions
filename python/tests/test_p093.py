@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p093_restore_ip_addresses import Solution
 
 def test_solution1():

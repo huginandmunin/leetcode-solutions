@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p1636_sort_array_by_increasing_frequency import Solution
 
 

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from p066_plus_one import Solution
 
 

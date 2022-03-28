@@ -5,7 +5,7 @@ def test_solution1():
     solution = Solution()
     s = "is2 sentence4 This1 a3"
     expected = "This is a sentence"
-    assert solution.summaryRanges(s)==expected
+    assert solution.sortSentence(s)==expected
 
 def test_solution2():
     solution = Solution()

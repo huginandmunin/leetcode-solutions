@@ -14,7 +14,7 @@ class Solution:
         sl = s.split()
         previous = None
         for t in sl:
-            if re.match('^\d+$',t):
+            if re.match('^\\d+$',t):
                 t_int = int(t)
                 if previous and t_int <= previous:
                     return False

@@ -10,4 +10,4 @@ The configuration file is
 
 [`.github/workflows/run_tests.yaml`](https://github.com/huginandmunin/leetcode-solutions/blob/main/.github/workflows/run_tests.yaml)
 
-This runs the tests with python3.9 on ubuntu.
+This runs the tests with python3.9 on ubuntu. The github action is configured to skip the tests when committing changes to the README file. 

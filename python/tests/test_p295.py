@@ -1,4 +1,4 @@
-from P295_find_median_from_data_stream import MedianFinder
+from p295_find_median_from_data_stream import MedianFinder
 
 def test_solution1():
     obj = MedianFinder()

@@ -26,14 +26,5 @@ class MedianFinder:
 # obj.addNum(num)
 # param_2 = obj.findMedian()
 
-if __name__ == "__main__":
-    print("Creating obj")
-    obj = MedianFinder()
-    print(f"obj.nums = {obj.nums}")
-    obj.addNum(1)
-    obj.addNum(2)
-    print(f"obj.nums = {obj.nums}")
-    obj.findMedian()
-    obj.addNum(3)
-    obj.findMedian()
+
 

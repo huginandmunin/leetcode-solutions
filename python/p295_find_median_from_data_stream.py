@@ -16,11 +16,8 @@ class MedianFinder:
         else:
             median = (self.nums[middle] + self.nums[middle-1]) / 2
         return median
-
-        print(f"len = {len(self.nums)}, middle = {middle}, median = {median}")
         
-
-
+        
 # Your MedianFinder object will be instantiated and called as such:
 # obj = MedianFinder()
 # obj.addNum(num)

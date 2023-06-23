@@ -31,5 +31,8 @@ def test_solution3():
     expected = []
     # Get node output and convert back to list
     output = solution.reverseList(list_input)
-    output = output.to_list()
+    if output:
+        output = output.to_list()
+    else:
+        output = []
     assert output==expected
